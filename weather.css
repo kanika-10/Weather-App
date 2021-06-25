@@ -1,0 +1,81 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+
+body{
+    background-image: url("Images/back0.jpg");
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+    overflow: hidden;       /* hide scroll bar*/
+    height: 100vh;
+}
+.main{
+    background-color: rgba(206, 200, 182, 0.6);   /* An RGBA color value is specified with: rgba(red, green, blue, alpha). The alpha parameter is a number between 0.0 (fully transparent) and 1.0 (fully opaque). */
+    margin:100px auto; /* means top and bottom margin of 100px and left and right margin of auto. And auto means that the left/right margin are automatically set based on the container. */
+    width:50vh;
+    overflow: hidden ;
+    /* height: 65vh; */
+    text-align: center;
+    border-radius:20px ;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.title{
+    padding: 10px;
+   
+}
+
+.container >* {        /*" >* " means apply to all classes inside parent class(here container) */
+    margin-bottom: 20px;
+    padding: 10px 0 0 0;
+}
+
+.inputcity{
+    padding: 10px;
+    font-size: 20px;
+    background-color: rgb(247, 244, 241);
+    border-radius: 20px;
+    outline: none;
+   }
+.inputcity:focus{
+    background-color: white;   
+    
+   }
+
+.weather-body{
+    display : none;
+    background-color: rgba(27, 27, 22, 0.4);
+    height:50vh;
+    margin: 10px 10px 10px 10px;
+    border-radius: 20px;
+    
+}
+
+.city-country{
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.date-day{
+    font-size: 20px;
+
+}
+
+.temp{
+    font-size: 70px;
+    font-weight: 800;
+}
+
+.min-max{
+    font-size: 20px;
+}
+
+.status{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-weight: 600;
+}
